@@ -189,8 +189,8 @@ if __name__ == "__main__":
     'security services'
 ]
 
-    states = ['FL']  # Example states
-    output_file = 'datas.csv'
+    states = ['TX']  # Example states
+    output_file = 'tx.csv'
 
     # Instantiate and run the scraper
     scraper = BusinessScraper(categories=categories, states=states, output_file=output_file)

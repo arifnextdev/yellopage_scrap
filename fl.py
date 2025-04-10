@@ -24,7 +24,7 @@ class ScraperConfig:
             'FEED_FORMAT': 'csv',               # Save as CSV
             'FEED_URI': self.output_file,       # Output file name
             'DOWNLOAD_DELAY': 2,                # Polite scraping
-            'USER_AGENT': 'BusinessScraper 1.0 (+http://example.com)',  # Custom user agent
+            'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',  # Custom user agent
             'FEED_EXPORT_ENCODING': 'utf-8',    # Ensure proper encoding
         }
 
@@ -190,7 +190,7 @@ if __name__ == "__main__":
 ]
 
     states = ['FL']  # Example states
-    output_file = 'datas.csv'
+    output_file = 'fl.csv'
 
     # Instantiate and run the scraper
     scraper = BusinessScraper(categories=categories, states=states, output_file=output_file)
