@@ -115,5 +115,5 @@ class ZabaPhoneScraper:
 
 
 if __name__ == "__main__":
-    scraper = ZabaPhoneScraper("CA.csv", "CA_output_results.csv")
+    scraper = ZabaPhoneScraper("input.csv", "CA_output_input_results.csv")
     scraper.process()
